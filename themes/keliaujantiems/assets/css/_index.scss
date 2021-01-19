@@ -1,0 +1,69 @@
+@mixin links-block {
+    display: inline-block;
+    width: 25%;
+    margin: 0 15px;
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    height: 530px;
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        color: $mainblue;
+        margin-top: 15px;
+    }
+
+    p {
+        margin: 15px;
+        color: #000
+    }
+}
+
+.main-page-block {
+    .main-page-hero {
+        display: block;
+        width: 100%;
+        height: 70vh;
+        background: url(../img/kl-hero-1.jpg);
+        background-position: bottom center;
+        position: relative;
+
+        .main-page-hero-title {
+            position: absolute;
+            top: 20px;
+            left: 3%;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+            font-size: 36px;
+        }
+    }
+
+    .main-page-links-block {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+
+        .links-block-1 {
+            @include links-block;
+        }
+
+        .links-block-2 {
+            @include links-block;
+        }
+
+        .links-block-3 {
+            @include links-block;
+        }
+    }
+}
