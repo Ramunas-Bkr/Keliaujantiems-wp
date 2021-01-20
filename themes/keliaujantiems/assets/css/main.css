@@ -62,8 +62,16 @@ header .header-links-area .custom-header-menu .menu-item a {
   font-size: 16px;
 }
 
-header .header-links-area .custom-header-menu .menu-item a img {
-  margin-top: -7px;
+header .header-links-area .custom-header-menu .menu-item a span {
+  color: #4267B2;
+  font-size: 24px;
+  margin-top: -2px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header .header-links-area .custom-header-menu .menu-item a span:hover {
+  font-size: 27px;
 }
 
 header .header-links-area .custom-header-menu .menu-item a:hover {
@@ -102,6 +110,15 @@ header.sticky .custom-header-menu {
 
 header.sticky .custom-header-menu .menu-item a {
   font-size: 12px;
+}
+
+header.sticky .custom-header-menu .menu-item a span {
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+header.sticky .custom-header-menu .menu-item a span:hover {
+  font-size: 24px;
 }
 
 header.sticky .custom-header-menu .menu-item a img {
