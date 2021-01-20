@@ -21,9 +21,9 @@
             $arr_posts->the_post(); ?>
                 <div class="main-page-news-block">
                 <a href="<?php the_permalink(); ?>" class="main-page-news-post-title"><?php the_title() ?></a>
-                <span class="news-post-date"><?php echo get_the_date('F j, Y'); ?> </span>
                 <?php if ( has_post_thumbnail() ) : the_post_thumbnail('large');
                 endif; ?>
+                <span class="news-post-date"><?php echo get_the_date('F j, Y'); ?> </span>
                 <?php the_excerpt(); ?>
                 <a class="main-page-news-block-read" href="<?php the_permalink(); ?>">Skaityti toliau</a>
         </div>
