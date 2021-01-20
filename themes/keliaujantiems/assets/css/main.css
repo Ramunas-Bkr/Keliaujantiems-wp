@@ -57,6 +57,10 @@ body * {
   font-size: 16px;
 }
 
+.header-links-area .custom-header-menu .menu-item a img {
+  margin-top: -7px;
+}
+
 .header-links-area .custom-header-menu .menu-item a:hover {
   color: #1600b8;
   font-size: 20px;
@@ -97,7 +101,7 @@ body * {
   display: inline-block;
   width: 100%;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .main-page-block .main-page-links-block .links-block-1 {
@@ -113,8 +117,8 @@ body * {
 }
 
 .main-page-block .main-page-links-block .links-block-1:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main-page-block .main-page-links-block .links-block-1 img {
@@ -146,8 +150,8 @@ body * {
 }
 
 .main-page-block .main-page-links-block .links-block-2:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main-page-block .main-page-links-block .links-block-2 img {
@@ -179,8 +183,8 @@ body * {
 }
 
 .main-page-block .main-page-links-block .links-block-3:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main-page-block .main-page-links-block .links-block-3 img {
@@ -209,5 +213,30 @@ body * {
   text-align: center;
   width: 100%;
   margin-bottom: 15px;
+}
+
+footer {
+  background-color: #1600b8;
+  margin-top: 25px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+footer img {
+  width: 15%;
+  height: auto;
+  margin: 25px 0 10px;
+}
+
+footer p {
+  color: #fff;
+  margin: 15px 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer p a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

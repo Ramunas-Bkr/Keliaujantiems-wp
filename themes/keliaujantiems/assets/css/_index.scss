@@ -8,7 +8,7 @@
     transition: all 1s;
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     img {
@@ -52,7 +52,7 @@
         display: inline-block;
         width: 100%;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 25px;
 
         .links-block-1 {
             @include links-block;

@@ -41,6 +41,10 @@
                 transition: all 0.5s;
                 font-size: 16px;
 
+                img {
+                    margin-top: -7px;
+                }
+
 
                 &:hover {
                     color: $mainblue;
@@ -56,6 +60,8 @@
                 a {
                     color: #fff;
                     transform: none;
+
+
                 }
             }
         }
