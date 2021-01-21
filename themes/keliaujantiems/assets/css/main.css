@@ -609,6 +609,54 @@ header.sticky .custom-header-menu .menu-item a:hover {
   border-radius: 5px;
 }
 
+.single-page-block {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.single-page-block h1 {
+  margin: 20px 0;
+}
+
+.single-page-block .single-page-content {
+  display: inline-block;
+  width: 70%;
+}
+
+.single-page-block .single-page-content p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.country-page-block {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.country-page-block .country-page-hero {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.country-page-block .country-page-hero img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.country-page-block .country-page-hero h1 {
+  position: absolute;
+  top: 32px;
+  left: 4%;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+  font-size: 70px;
+}
+
 footer {
   background-color: #130a57;
   margin-top: 25px;

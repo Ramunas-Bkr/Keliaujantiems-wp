@@ -31,3 +31,13 @@ function check_for_category_single_template( $t )
   } 
   return $t;
 }
+
+if (class_exists('MultiPostThumbnails')) {
+ 
+new MultiPostThumbnails(array(
+'label' => 'Secondary Image',
+'id' => 'secondary-image',
+'post_type' => 'post'
+ ) );
+ 
+ }
