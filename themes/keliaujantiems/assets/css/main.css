@@ -412,15 +412,48 @@ header.sticky .custom-header-menu .menu-item a:hover {
 }
 
 .petrol-price-block {
-  width: 70%;
-  margin: 30px 15% 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
-.petrol-price-block .petrol-price-title {
-  display: inline-block;
-  text-align: center;
+.petrol-price-block .petrol-price-block-hero-photo {
+  display: block;
   width: 100%;
-  margin-bottom: 15px;
+  height: 90vh;
+  background: url(../img/petrol1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.petrol-price-block .petrol-price-block-hero-photo .petrol-price-title {
+  position: absolute;
+  top: 32px;
+  left: 4%;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+  font-size: 44px;
+}
+
+.petrol-price-block .petrol-price-content {
+  display: inline-block;
+  width: 70%;
+  margin-top: 25px;
+}
+
+.petrol-price-block .petrol-price-content p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.petrol-price-block .petrol-price-content figure {
+  margin-top: 15px;
+}
+
+.petrol-price-block .petrol-price-content figure table tbody td {
+  padding: 10px 0;
 }
 
 .countries-block {
