@@ -453,14 +453,15 @@ header.sticky .custom-header-menu .menu-item a:hover {
 
 .countries-block .countries-list-block {
   display: inline-block;
-  width: 70%;
+  width: 80%;
   text-align: left;
+  margin-top: 25px;
 }
 
 .countries-block .countries-list-block .country-block {
   display: inline-block;
-  width: 15%;
-  margin: 10px 4%;
+  width: 10%;
+  margin: 10px 1%;
   text-decoration: none;
 }
 
@@ -471,9 +472,108 @@ header.sticky .custom-header-menu .menu-item a:hover {
 
 .countries-block .countries-list-block .country-block h3 {
   text-align: center;
+  color: #000;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.advice-block {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.advice-block .advice-block-hero-photo {
+  display: block;
+  width: 100%;
+  height: 90vh;
+  background: url(../img/camping1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.advice-block .advice-block-hero-photo .advice-block-title {
+  position: absolute;
+  top: 32px;
+  left: 4%;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+  font-size: 44px;
+}
+
+.advice-block .advice-post-block {
+  display: inline-block;
+  width: 70%;
+  margin-top: 25px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.advice-block .advice-post-block .advice-post-title {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
   color: #130a57;
-  font-size: 2vw;
-  margin-top: -25px;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.advice-block .advice-post-block .advice-post-content {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.advice-block .advice-post-block .advice-post-content img {
+  display: inline-block;
+  width: 25%;
+}
+
+.advice-block .advice-post-block .advice-post-content .advice-post-text-block {
+  display: inline-block;
+  width: 74%;
+  padding-left: 15px;
+}
+
+.advice-block .advice-post-block .advice-post-content .advice-post-text-block span {
+  padding: 2px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.advice-block .advice-post-block .advice-post-content .advice-post-text-block p {
+  margin-top: 10px;
+}
+
+.advice-block .advice-post-block .advice-post-content .advice-post-text-block .advice-post-read {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.advice-block .advice-page-pagination {
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.advice-block .advice-page-pagination a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #130a57;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.advice-block .advice-page-pagination span {
+  color: #666;
+  background-color: #130a57;
+  padding: 3px 8px;
+  border-radius: 5px;
 }
 
 footer {

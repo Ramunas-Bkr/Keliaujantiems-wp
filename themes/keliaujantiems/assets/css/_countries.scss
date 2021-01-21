@@ -27,13 +27,14 @@
 
     .countries-list-block {
         display: inline-block;
-        width: 70%;
+        width: 80%;
         text-align: left;
+        margin-top: 25px;
 
         .country-block {
             display: inline-block;
-            width: 15%;
-            margin: 10px 4%;
+            width: 10%;
+            margin: 10px 1%;
             text-decoration: none;
 
             img {
@@ -43,9 +44,9 @@
 
             h3 {
                 text-align: center;
-                color: $mainblue;
-                font-size: 2vw;
-                margin-top: -25px;
+                color: #000;
+                font-size: 20px;
+                margin-top: -10px;
             }
         }
     }

@@ -32,7 +32,7 @@
     </div>
     <div class="main-page-links-block">
         <a href="<?php echo esc_url( home_url( '/salys/' ) ); ?>" class="links-block-1">
-            <img src="<?php echo get_template_directory_uri() . '/assets/img/map.jpg'; ?>" alt="map">
+            <img src="<?php echo get_template_directory_uri() . '/assets/img/map1.jpg'; ?>" alt="map">
             <h2>Šalys</h2>
             <p>Informacija apie konkrečias Europos šalis: kelių mokesčiai, eismo taisyklių ypatybės</p>
         </a>

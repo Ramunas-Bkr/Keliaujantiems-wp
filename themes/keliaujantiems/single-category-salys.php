@@ -1,6 +1,6 @@
 <?php get_header() ?>
 <?php the_post() ?>
-<div <?php post_class(); ?>>
+<div class="country-page-block">
     <h1><?php the_title() ?></h1>
     <div class="single-page-content"><?php the_content() ?></div>
 </div>

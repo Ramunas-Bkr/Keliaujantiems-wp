@@ -1,0 +1,99 @@
+.advice-block {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+    .advice-block-hero-photo {
+        display: block;
+        width: 100%;
+        height: 90vh;
+        background: url(../img/camping1.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+
+        .advice-block-title {
+            position: absolute;
+            top: 32px;
+            left: 4%;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
+            font-size: 44px;
+        }
+    }
+
+    .advice-post-block {
+        display: inline-block;
+        width: 70%;
+        margin-top: 25px;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+
+        .advice-post-title {
+            display: inline-block;
+            width: 100%;
+            text-decoration: none;
+            color: $mainblue;
+            font-weight: 500;
+            font-size: 36px;
+        }
+
+        .advice-post-content {
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+            margin: 10px 0;
+
+            img {
+                display: inline-block;
+                width: 25%;
+            }
+
+            .advice-post-text-block {
+                display: inline-block;
+                width: 74%;
+                padding-left: 15px;
+
+                span {
+                    padding: 2px;
+                    border-top: 1px solid #000;
+                    border-bottom: 1px solid #000;
+                }
+
+                p {
+                    margin-top: 10px;
+                }
+
+                .advice-post-read {
+                    display: inline-block;
+                    width: 100%;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .advice-page-pagination {
+        display: inline-block;
+        width: 70%;
+        text-align: left;
+        margin-top: 10px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            background-color: $mainblue;
+            padding: 3px 8px;
+            border-radius: 5px
+        }
+
+        span {
+            color: #666;
+            background-color: $mainblue;
+            padding: 3px 8px;
+            border-radius: 5px
+        }
+    }
+
+}
