@@ -44,4 +44,27 @@
             font-size: 70px;
         }
     }
+
+    .single-page-content {
+        display: inline-block;
+        width: 70%;
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        p {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        figure {
+            margin-top: 10px;
+
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+    }
 }

@@ -55,10 +55,15 @@
                 width: 74%;
                 padding-left: 15px;
 
+                &.full-block {
+                    width: 100%;
+                }
+
                 span {
                     padding: 2px;
                     border-top: 1px solid #000;
                     border-bottom: 1px solid #000;
+                    font-size: 12px;
                 }
 
                 p {

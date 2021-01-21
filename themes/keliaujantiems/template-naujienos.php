@@ -26,13 +26,20 @@ $arr_posts = new WP_Query( $args );
         <a href="<?php the_permalink(); ?>" class="news-post-title"><?php the_title(); ?></a>
         <div class="news-post-content">
             <?php if ( has_post_thumbnail() ) :
-                the_post_thumbnail('medium');
-            endif; ?>
-            <div class="news-post-text-block">
-                <span class="news-post-date"><?php echo get_the_date('F j, Y'); ?> </span>
-                <?php the_excerpt(); ?>
-                <a class="news-post-read" href="<?php the_permalink(); ?>">Skaityti toliau</a>
-            </div>
+                the_post_thumbnail('medium'); ?>
+                    <div class="news-post-text-block">
+                        <span class="news-post-date"><?php echo get_the_date('F j, Y'); ?> </span>
+                        <?php the_excerpt(); ?>
+                        <a class="news-post-read" href="<?php the_permalink(); ?>">Skaityti toliau</a>
+                    </div>
+            <?php else : ?>
+                <div class="news-post-text-block full-block">
+                    <span class="news-post-date"><?php echo get_the_date('F j, Y'); ?> </span>
+                    <?php the_excerpt(); ?>
+                    <a class="news-post-read" href="<?php the_permalink(); ?>">Skaityti toliau</a>
+                </div>
+            <?php endif; ?>
+            
         </div>
     </div>
     <?php endwhile;

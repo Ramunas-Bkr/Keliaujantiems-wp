@@ -365,6 +365,7 @@ header.sticky .custom-header-menu .menu-item a:hover {
 .news-block .news-post-block .news-post-content img {
   display: inline-block;
   width: 25%;
+  height: auto;
 }
 
 .news-block .news-post-block .news-post-content .news-post-text-block {
@@ -373,10 +374,15 @@ header.sticky .custom-header-menu .menu-item a:hover {
   padding-left: 15px;
 }
 
+.news-block .news-post-block .news-post-content .news-post-text-block.full-block {
+  width: 100%;
+}
+
 .news-block .news-post-block .news-post-content .news-post-text-block span {
   padding: 2px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  font-size: 12px;
 }
 
 .news-block .news-post-block .news-post-content .news-post-text-block p {
@@ -571,10 +577,15 @@ header.sticky .custom-header-menu .menu-item a:hover {
   padding-left: 15px;
 }
 
+.advice-block .advice-post-block .advice-post-content .advice-post-text-block.full-block {
+  width: 100%;
+}
+
 .advice-block .advice-post-block .advice-post-content .advice-post-text-block span {
   padding: 2px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
+  font-size: 12px;
 }
 
 .advice-block .advice-post-block .advice-post-content .advice-post-text-block p {
@@ -655,6 +666,29 @@ header.sticky .custom-header-menu .menu-item a:hover {
   text-transform: uppercase;
   text-shadow: 4px 3px 6px rgba(0, 0, 0, 0.6);
   font-size: 70px;
+}
+
+.country-page-block .single-page-content {
+  display: inline-block;
+  width: 70%;
+}
+
+.country-page-block .single-page-content h2 {
+  margin-top: 10px;
+}
+
+.country-page-block .single-page-content p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.country-page-block .single-page-content figure {
+  margin-top: 10px;
+}
+
+.country-page-block .single-page-content figure img {
+  width: 80%;
+  height: auto;
 }
 
 footer {
