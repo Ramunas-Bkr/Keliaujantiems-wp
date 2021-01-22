@@ -674,7 +674,8 @@ header.sticky .custom-header-menu .menu-item a:hover {
 }
 
 .country-page-block .single-page-content h2 {
-  margin-top: 10px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .country-page-block .single-page-content p {
@@ -682,13 +683,48 @@ header.sticky .custom-header-menu .menu-item a:hover {
   margin-top: 10px;
 }
 
+.country-page-block .single-page-content p.table-head {
+  text-align: center;
+}
+
 .country-page-block .single-page-content figure {
+  display: inline-block;
   margin-top: 10px;
+  text-align: center;
+}
+
+.country-page-block .single-page-content figure.wp-block-table {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.country-page-block .single-page-content figure table thead tr th {
+  padding: 10px 5px;
+}
+
+.country-page-block .single-page-content figure table tbody tr td {
+  padding: 10px 5px;
+}
+
+.country-page-block .single-page-content figure.columns-2 {
+  width: 60%;
+}
+
+.country-page-block .single-page-content figure.columns-5 {
+  width: 90%;
+}
+
+.country-page-block .single-page-content figure.penalty-3 {
+  width: 70%;
 }
 
 .country-page-block .single-page-content figure img {
   width: 80%;
   height: auto;
+}
+
+.country-page-block .single-page-content ul {
+  text-align: left;
 }
 
 footer {

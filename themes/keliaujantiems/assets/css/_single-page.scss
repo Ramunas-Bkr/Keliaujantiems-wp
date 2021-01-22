@@ -50,21 +50,67 @@
         width: 70%;
 
         h2 {
-            margin-top: 10px;
+            margin-top: 20px;
+            text-align: center;
         }
 
         p {
             text-align: left;
             margin-top: 10px;
+
+            &.table-head {
+                text-align: center;
+            }
         }
 
         figure {
+            display: inline-block;
             margin-top: 10px;
+            text-align: center;
+
+            &.wp-block-table {
+                border-top: 1px solid gray;
+                border-bottom: 1px solid gray;
+            }
+
+            table {
+                thead {
+                    tr {
+                        th {
+                            padding: 10px 5px;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            padding: 10px 5px;
+                        }
+                    }
+                }
+            }
+
+            &.columns-2 {
+                width: 60%;
+            }
+
+            &.columns-5 {
+                width: 90%;
+            }
+
+            &.penalty-3 {
+                width: 70%;
+            }
 
             img {
                 width: 80%;
                 height: auto;
             }
+        }
+
+        ul {
+            text-align: left;
         }
     }
 }
