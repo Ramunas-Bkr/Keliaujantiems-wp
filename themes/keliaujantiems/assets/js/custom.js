@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
     let sticky = header.offsetTop;
 
-    function myFunction() {
+    function addClassWhenScrolling() {
         if (window.pageYOffset > sticky) {
             header.classList.add('sticky');
         } else {
@@ -12,5 +12,5 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    window.onscroll = myFunction;
+    window.addEventListener('scroll', addClassWhenScrolling);
 });
