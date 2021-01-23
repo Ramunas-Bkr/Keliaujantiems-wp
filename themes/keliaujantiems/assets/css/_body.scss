@@ -8,4 +8,8 @@ body * {
     font-family: 'Noto Sans', sans-serif;
 }
 
+body.modal_is_open {
+    overflow: hidden;
+}
+
 $mainblue: #130a57;
