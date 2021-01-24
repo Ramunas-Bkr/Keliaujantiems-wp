@@ -19,7 +19,7 @@
         <?php if ( $arr_posts->have_posts() ) :
             while ( $arr_posts->have_posts() ) :
             $arr_posts->the_post(); ?>
-                <div class="main-page-news-block">
+                <div class="main-page-news-wrapper">
                 <a href="<?php the_permalink(); ?>" class="main-page-news-post-title"><?php the_title() ?></a>
                 <?php if ( has_post_thumbnail() ) : the_post_thumbnail('large');
                 endif; ?>

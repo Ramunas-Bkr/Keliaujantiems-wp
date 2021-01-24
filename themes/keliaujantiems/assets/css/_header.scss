@@ -222,31 +222,3 @@ header.sticky {
         }
     }
 }
-
-@media (max-width: 820px) {
-    header {
-        background-color: none;
-
-        .header-links-area {
-            .custom-header-menu {
-                display: none;
-            }
-
-            .mobile-links-block {
-                display: block;
-            }
-        }
-
-
-    }
-}
-
-@media (max-width: 340px) {
-    header {
-        .header-links-area {
-            .logo-block {
-                width: 160px;
-            }
-        }
-    }
-}
