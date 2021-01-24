@@ -82,9 +82,9 @@ header {
         width: 100%;
 
         .logo-block {
-            width: 8%;
+            width: 150px;
             margin: 3px 0;
-            margin-left: 3%;
+            margin-left: 15px;
         }
 
         .custom-header-menu {
@@ -120,6 +120,7 @@ header {
         margin-right: 35px;
         font-size: 20px;
         text-align: right;
+        float: right;
 
         .icon {
             width: 30px;
@@ -136,15 +137,19 @@ header {
             height: 100vh;
             width: 300px;
             top: 0;
+            right: 0;
             z-index: 999;
             box-shadow: 6px 6px 12px 0 rgba(198, 176, 163, .33);
             overflow-y: hidden;
             position: absolute;
 
             span {
+                display: inline-block;
                 width: 100%;
                 line-height: 40px;
-                margin-right: 10px;
+                text-align: right;
+                padding-right: 20px;
+                margin-top: 10px;
             }
 
             a {
@@ -177,6 +182,14 @@ header {
                             color: $mainblue;
                             opacity: 0.7;
                         }
+
+                        .menu-image-title-hide {
+                            display: none;
+                        }
+
+                        .dashicons-facebook {
+                            padding-right: 0;
+                        }
                     }
 
                     &.current-menu-item {
@@ -203,11 +216,15 @@ header {
         background-color: none;
 
         .header-links-area {
-            display: none;
+            .custom-header-menu {
+                display: none;
+            }
+
+            .mobile-links-block {
+                display: block;
+            }
         }
 
-        .mobile-links-block {
-            display: block;
-        }
+
     }
 }

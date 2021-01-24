@@ -102,9 +102,9 @@ header.sticky {
 }
 
 header.sticky .logo-block {
-  width: 8%;
+  width: 150px;
   margin: 3px 0;
-  margin-left: 3%;
+  margin-left: 15px;
 }
 
 header.sticky .custom-header-menu {
@@ -138,6 +138,7 @@ header .mobile-links-block {
   margin-right: 35px;
   font-size: 20px;
   text-align: right;
+  float: right;
 }
 
 header .mobile-links-block .icon {
@@ -155,6 +156,7 @@ header .mobile-links-block .mobile-links {
   height: 100vh;
   width: 300px;
   top: 0;
+  right: 0;
   z-index: 999;
   -webkit-box-shadow: 6px 6px 12px 0 rgba(198, 176, 163, 0.33);
           box-shadow: 6px 6px 12px 0 rgba(198, 176, 163, 0.33);
@@ -163,9 +165,12 @@ header .mobile-links-block .mobile-links {
 }
 
 header .mobile-links-block .mobile-links span {
+  display: inline-block;
   width: 100%;
   line-height: 40px;
-  margin-right: 10px;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 10px;
 }
 
 header .mobile-links-block .mobile-links a {
@@ -202,6 +207,14 @@ header .mobile-links-block .mobile-links .mobile-links-list li a:hover {
   opacity: 0.7;
 }
 
+header .mobile-links-block .mobile-links .mobile-links-list li a .menu-image-title-hide {
+  display: none;
+}
+
+header .mobile-links-block .mobile-links .mobile-links-list li a .dashicons-facebook {
+  padding-right: 0;
+}
+
 header .mobile-links-block .mobile-links .mobile-links-list li.current-menu-item a {
   color: #130a57;
   opacity: 0.7;
@@ -216,10 +229,10 @@ header .mobile-links-block .mobile-links .mobile-links-list a span {
   header {
     background-color: none;
   }
-  header .header-links-area {
+  header .header-links-area .custom-header-menu {
     display: none;
   }
-  header .mobile-links-block {
+  header .header-links-area .mobile-links-block {
     display: block;
   }
 }

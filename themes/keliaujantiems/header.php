@@ -17,21 +17,20 @@
         <?php wp_nav_menu( ([ 
             'theme_location' => 'my-custom-menu', 
             'container' => false,
-            'menu_class' => 'custom-header-menu' ])); ?>
-    </div>
-    <div class="mobile-links-block">
+            'menu_class' => 'custom-header-menu',
+            'menu_id' => 'screen-header-menu' ])); ?>
+                <div class="mobile-links-block">
         <div id="switch-link" class="icon">
             &#9776;
         </div>
         <div class="mobile-links" id="mobile-menu">
             <span id="close-menu">&#10006;</span>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <img src="<?php echo get_template_directory_uri() . '/assets/img/keliaujantiems-logo-new.gif'; ?>" alt="Logo">
-            </a>    
             <?php wp_nav_menu( ([
                 'theme_location' => 'my-custom-menu',
                 'container' => false,
                 'menu_class' => 'mobile-links-list' ]) ); ?>
         </div>
     </div>
+    </div>
+
 </header>
