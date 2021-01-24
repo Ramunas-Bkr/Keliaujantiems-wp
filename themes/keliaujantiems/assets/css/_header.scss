@@ -76,136 +76,148 @@ header {
         }
     }
 
-    &.sticky {
-        opacity: 0.9;
-        position: fixed;
-        width: 100%;
+    .custom-header-menu {
+        margin-top: 12px;
+        font-size: 14px;
 
-        .logo-block {
-            width: 150px;
-            margin: 3px 0;
-            margin-left: 15px;
-        }
+        .menu-item a {
+            font-size: 12px;
 
-        .custom-header-menu {
-            margin-top: 12px;
-            font-size: 14px;
-
-            .menu-item a {
-                font-size: 12px;
-
-                span {
-                    font-size: 18px;
-                    margin-top: -2px;
-
-                    &:hover {
-                        font-size: 24px;
-                    }
-                }
-
-                img {
-                    margin-top: -7px;
-                }
+            span {
+                font-size: 18px;
+                margin-top: -2px;
 
                 &:hover {
-                    font-size: 14px;
+                    font-size: 24px;
                 }
-
             }
+
+            img {
+                margin-top: -7px;
+            }
+
+            &:hover {
+                font-size: 14px;
+            }
+
         }
     }
 
-    .mobile-links-block {
-        display: none;
-        margin-right: 35px;
-        font-size: 20px;
-        text-align: right;
-        float: right;
+}
 
-        .icon {
-            width: 30px;
-            font-size: 30px;
-            margin-bottom: 10px;
-            padding-top: 10px;
-            margin-left: 30px;
-            cursor: pointer;
+header.sticky {
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+
+    .logo-block {
+        width: 150px;
+        margin: 3px 0;
+        margin-left: 15px;
+    }
+}
+
+.mobile-links-block {
+    display: none;
+    margin-right: 35px;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+
+    .icon {
+        width: 30px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .mobile-links {
+        display: none;
+        background-color: #fff;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        box-shadow: 6px 6px 12px 0 rgba(198, 176, 163, .33);
+        overflow-y: hidden;
+        position: absolute;
+
+        span {
+            display: inline-block;
+            width: 100%;
+            line-height: 40px;
+            text-align: right;
+            padding-right: 20px;
+            margin-top: 10px;
         }
 
-        .mobile-links {
-            display: none;
-            background-color: #fff;
-            height: 100vh;
-            width: 300px;
-            top: 0;
-            right: 0;
-            z-index: 999;
-            box-shadow: 6px 6px 12px 0 rgba(198, 176, 163, .33);
-            overflow-y: hidden;
-            position: absolute;
+        a {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
 
-            span {
-                display: inline-block;
-                width: 100%;
-                line-height: 40px;
-                text-align: right;
-                padding-right: 20px;
+            img {
+                width: 80%;
+                height: auto;
+            }
+        }
+
+        .mobile-links-list {
+            display: inline-block;
+            list-style: none;
+            margin-top: 20px;
+
+            li {
+                margin-right: 30px;
                 margin-top: 10px;
+
+                a {
+                    text-align: right;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: $mainblue;
+                        opacity: 0.7;
+                    }
+
+                    .menu-image-title-hide {
+                        display: none;
+                    }
+
+                    .dashicons-facebook {
+                        padding-right: 0;
+                    }
+                }
+
+                &.current-menu-item {
+                    a {
+                        color: $mainblue;
+                        opacity: 0.7;
+                    }
+                }
             }
 
             a {
-                display: inline-block;
-                text-align: center;
-                width: 100%;
-
-                img {
-                    width: 80%;
-                    height: auto;
+                span {
+                    text-align: right;
+                    margin-top: -7px;
                 }
             }
+        }
+    }
+}
 
-            .mobile-links-list {
-                display: inline-block;
-                list-style: none;
-                margin-top: 20px;
-
-                li {
-                    margin-right: 30px;
-                    margin-top: 10px;
-
-                    a {
-                        text-align: right;
-                        text-decoration: none;
-                        color: #000;
-                        font-weight: 600;
-
-                        &:hover {
-                            color: $mainblue;
-                            opacity: 0.7;
-                        }
-
-                        .menu-image-title-hide {
-                            display: none;
-                        }
-
-                        .dashicons-facebook {
-                            padding-right: 0;
-                        }
-                    }
-
-                    &.current-menu-item {
-                        a {
-                            color: $mainblue;
-                            opacity: 0.7;
-                        }
-                    }
-                }
-
-                a {
-                    span {
-                        text-align: right;
-                        margin-top: -7px;
-                    }
-                }
+header.sticky {
+    .header-links-area {
+        .mobile-links-block {
+            .icon {
+                font-size: 25px;
+                padding-top: 10px;
             }
         }
     }
@@ -226,5 +238,15 @@ header {
         }
 
 
+    }
+}
+
+@media (max-width: 340px) {
+    header {
+        .header-links-area {
+            .logo-block {
+                width: 160px;
+            }
+        }
     }
 }

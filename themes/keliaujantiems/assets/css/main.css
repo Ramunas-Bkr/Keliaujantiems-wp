@@ -95,6 +95,32 @@ header .header-links-area .custom-header-menu .menu-item.current-menu-item a {
           transform: none;
 }
 
+header .custom-header-menu {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+header .custom-header-menu .menu-item a {
+  font-size: 12px;
+}
+
+header .custom-header-menu .menu-item a span {
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+header .custom-header-menu .menu-item a span:hover {
+  font-size: 24px;
+}
+
+header .custom-header-menu .menu-item a img {
+  margin-top: -7px;
+}
+
+header .custom-header-menu .menu-item a:hover {
+  font-size: 14px;
+}
+
 header.sticky {
   opacity: 0.9;
   position: fixed;
@@ -107,33 +133,7 @@ header.sticky .logo-block {
   margin-left: 15px;
 }
 
-header.sticky .custom-header-menu {
-  margin-top: 12px;
-  font-size: 14px;
-}
-
-header.sticky .custom-header-menu .menu-item a {
-  font-size: 12px;
-}
-
-header.sticky .custom-header-menu .menu-item a span {
-  font-size: 18px;
-  margin-top: -2px;
-}
-
-header.sticky .custom-header-menu .menu-item a span:hover {
-  font-size: 24px;
-}
-
-header.sticky .custom-header-menu .menu-item a img {
-  margin-top: -7px;
-}
-
-header.sticky .custom-header-menu .menu-item a:hover {
-  font-size: 14px;
-}
-
-header .mobile-links-block {
+.mobile-links-block {
   display: none;
   margin-right: 35px;
   font-size: 20px;
@@ -141,16 +141,16 @@ header .mobile-links-block {
   float: right;
 }
 
-header .mobile-links-block .icon {
+.mobile-links-block .icon {
   width: 30px;
   font-size: 30px;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-left: 30px;
   cursor: pointer;
 }
 
-header .mobile-links-block .mobile-links {
+.mobile-links-block .mobile-links {
   display: none;
   background-color: #fff;
   height: 100vh;
@@ -164,7 +164,7 @@ header .mobile-links-block .mobile-links {
   position: absolute;
 }
 
-header .mobile-links-block .mobile-links span {
+.mobile-links-block .mobile-links span {
   display: inline-block;
   width: 100%;
   line-height: 40px;
@@ -173,56 +173,61 @@ header .mobile-links-block .mobile-links span {
   margin-top: 10px;
 }
 
-header .mobile-links-block .mobile-links a {
+.mobile-links-block .mobile-links a {
   display: inline-block;
   text-align: center;
   width: 100%;
 }
 
-header .mobile-links-block .mobile-links a img {
+.mobile-links-block .mobile-links a img {
   width: 80%;
   height: auto;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list {
+.mobile-links-block .mobile-links .mobile-links-list {
   display: inline-block;
   list-style: none;
   margin-top: 20px;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li {
+.mobile-links-block .mobile-links .mobile-links-list li {
   margin-right: 30px;
   margin-top: 10px;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li a {
+.mobile-links-block .mobile-links .mobile-links-list li a {
   text-align: right;
   text-decoration: none;
   color: #000;
   font-weight: 600;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li a:hover {
+.mobile-links-block .mobile-links .mobile-links-list li a:hover {
   color: #130a57;
   opacity: 0.7;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li a .menu-image-title-hide {
+.mobile-links-block .mobile-links .mobile-links-list li a .menu-image-title-hide {
   display: none;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li a .dashicons-facebook {
+.mobile-links-block .mobile-links .mobile-links-list li a .dashicons-facebook {
   padding-right: 0;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list li.current-menu-item a {
+.mobile-links-block .mobile-links .mobile-links-list li.current-menu-item a {
   color: #130a57;
   opacity: 0.7;
 }
 
-header .mobile-links-block .mobile-links .mobile-links-list a span {
+.mobile-links-block .mobile-links .mobile-links-list a span {
   text-align: right;
   margin-top: -7px;
+}
+
+header.sticky .header-links-area .mobile-links-block .icon {
+  font-size: 25px;
+  padding-top: 10px;
 }
 
 @media (max-width: 820px) {
@@ -234,6 +239,12 @@ header .mobile-links-block .mobile-links .mobile-links-list a span {
   }
   header .header-links-area .mobile-links-block {
     display: block;
+  }
+}
+
+@media (max-width: 340px) {
+  header .header-links-area .logo-block {
+    width: 160px;
   }
 }
 
