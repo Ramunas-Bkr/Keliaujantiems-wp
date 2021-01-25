@@ -1,3 +1,9 @@
+@media (max-width: 950px) {
+    .countries-block .countries-list-block .country-block {
+        width: 15%;
+    }
+}
+
 @media (max-width: 850px) {
     .main-page-block {
         .main-page-hero {
@@ -21,6 +27,24 @@
             }
         }
     }
+
+    .news-block {
+        .news-post-block {
+            width: 90%;
+        }
+    }
+
+    .petrol-price-block .petrol-price-content {
+        width: 90%;
+    }
+
+    .country-page-block .single-page-content {
+        width: 90%;
+    }
+
+    .single-page-block .single-page-content {
+        width: 90%;
+    }
 }
 
 @media (max-width: 820px) {
@@ -41,11 +65,61 @@
     }
 }
 
+@media (max-width: 750px) {
+    .news-block {
+        .news-post-block {
+            .news-post-content {
+                .news-post-text-block {
+                    p {
+                        font-size: 14px;
+                    }
+
+                    .news-post-read {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .petrol-price-block .petrol-price-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 950px) {
+    .countries-block .countries-list-block .country-block {
+        width: 20%;
+    }
+}
+
 @media (max-width: 650px) {
     footer {
         p {
             font-size: 12px;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .news-block .news-post-block .news-post-content img {
+        width: 100%;
+    }
+
+    .news-block .news-post-block .news-post-content .news-post-text-block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .countries-block .countries-list-block .country-block h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 470px) {
+    .countries-block .countries-list-block {
+        width: 95%;
     }
 }
 
@@ -64,6 +138,11 @@
     }
 }
 
+@media (max-width: 380px) {
+    .petrol-price-block .petrol-price-content {
+        font-size: 12px;
+    }
+}
 
 @media (max-width: 340px) {
     header {
