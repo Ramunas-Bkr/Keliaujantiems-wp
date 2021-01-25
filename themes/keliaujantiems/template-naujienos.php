@@ -7,7 +7,7 @@ $args = array(
     'post_type' => 'post',
     'post_status' => 'publish',
     'category_name' => 'naujienos',
-    'posts_per_page' => 3,
+    'posts_per_page' => 7,
     'paged' => $paged,
 );
 

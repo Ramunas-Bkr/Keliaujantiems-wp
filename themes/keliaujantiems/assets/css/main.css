@@ -323,6 +323,7 @@ header.sticky .header-links-area .mobile-links-block .icon {
   -webkit-box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
           box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
   text-decoration: none;
+  min-height: 70vh;
   height: auto;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -356,6 +357,7 @@ header.sticky .header-links-area .mobile-links-block .icon {
   -webkit-box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
           box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
   text-decoration: none;
+  min-height: 70vh;
   height: auto;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -389,6 +391,7 @@ header.sticky .header-links-area .mobile-links-block .icon {
   -webkit-box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
           box-shadow: 2px 3px 15px 5px rgba(0, 0, 0, 0.76);
   text-decoration: none;
+  min-height: 70vh;
   height: auto;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -672,6 +675,7 @@ header.sticky .header-links-area .mobile-links-block .icon {
 .advice-block .advice-post-block .advice-post-content img {
   display: inline-block;
   width: 25%;
+  height: auto;
 }
 
 .advice-block .advice-post-block .advice-post-content .advice-post-text-block {
@@ -743,25 +747,29 @@ header.sticky .header-links-area .mobile-links-block .icon {
   margin-top: 10px;
 }
 
-.country-page-block {
+.country-page-block,
+.single-page-block {
   display: inline-block;
   width: 100%;
   text-align: center;
 }
 
-.country-page-block .country-page-hero {
+.country-page-block .country-page-hero,
+.single-page-block .country-page-hero {
   display: inline-block;
   width: 100%;
   position: relative;
 }
 
-.country-page-block .country-page-hero img {
+.country-page-block .country-page-hero img,
+.single-page-block .country-page-hero img {
   display: inline-block;
   width: 100%;
   height: auto;
 }
 
-.country-page-block .country-page-hero h1 {
+.country-page-block .country-page-hero h1,
+.single-page-block .country-page-hero h1 {
   position: absolute;
   top: 32px;
   left: 4%;
@@ -771,62 +779,76 @@ header.sticky .header-links-area .mobile-links-block .icon {
   font-size: 70px;
 }
 
-.country-page-block .single-page-content {
+.country-page-block .single-page-content,
+.single-page-block .single-page-content {
   display: inline-block;
   width: 70%;
 }
 
-.country-page-block .single-page-content h2 {
+.country-page-block .single-page-content h2,
+.single-page-block .single-page-content h2 {
   margin-top: 20px;
   text-align: center;
 }
 
-.country-page-block .single-page-content p {
+.country-page-block .single-page-content p,
+.single-page-block .single-page-content p {
   text-align: left;
   margin-top: 10px;
 }
 
-.country-page-block .single-page-content p.table-head {
+.country-page-block .single-page-content p.table-head,
+.single-page-block .single-page-content p.table-head {
   text-align: center;
 }
 
-.country-page-block .single-page-content figure {
+.country-page-block .single-page-content figure,
+.single-page-block .single-page-content figure {
   display: inline-block;
   margin-top: 10px;
   text-align: center;
 }
 
-.country-page-block .single-page-content figure.wp-block-table {
+.country-page-block .single-page-content figure.wp-block-table,
+.single-page-block .single-page-content figure.wp-block-table {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
 }
 
-.country-page-block .single-page-content figure table thead tr th {
+.country-page-block .single-page-content figure table thead tr th,
+.single-page-block .single-page-content figure table thead tr th {
   padding: 10px 5px;
 }
 
-.country-page-block .single-page-content figure table tbody tr td {
+.country-page-block .single-page-content figure table tbody tr td,
+.single-page-block .single-page-content figure table tbody tr td {
   padding: 10px 5px;
 }
 
-.country-page-block .single-page-content figure.columns-2 {
+.country-page-block .single-page-content figure.columns-2,
+.single-page-block .single-page-content figure.columns-2 {
   width: 60%;
 }
 
-.country-page-block .single-page-content figure.columns-5 {
+.country-page-block .single-page-content figure.columns-5,
+.single-page-block .single-page-content figure.columns-5 {
   width: 90%;
 }
 
-.country-page-block .single-page-content figure.penalty-3 {
+.country-page-block .single-page-content figure.penalty-3,
+.single-page-block .single-page-content figure.penalty-3 {
   width: 70%;
 }
 
-.country-page-block .single-page-content figure img {
+.country-page-block .single-page-content figure img,
+.single-page-block .single-page-content figure img {
   width: 80%;
   height: auto;
+  margin: 15px 0 10px;
 }
 
-.country-page-block .single-page-content ul {
+.country-page-block .single-page-content ul,
+.single-page-block .single-page-content ul {
   text-align: left;
 }
 

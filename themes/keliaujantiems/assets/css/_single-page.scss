@@ -18,7 +18,8 @@
     }
 }
 
-.country-page-block {
+.country-page-block,
+.single-page-block {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -106,6 +107,7 @@
             img {
                 width: 80%;
                 height: auto;
+                margin: 15px 0 10px;
             }
         }
 
