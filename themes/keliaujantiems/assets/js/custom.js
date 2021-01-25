@@ -20,10 +20,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const showMenu = document.getElementById('switch-link');
     const mobileMenu = document.getElementById('mobile-menu');
-    const closeMenu = document.getElementById('close-menu')
+    const closeMenu = document.getElementById('close-menu');
 
     document.onclick = function (event) {
-        let target = (event && event.target)
+        let target = (event && event.target);
         let display = 'none';
         let switchDisplay = 'block';
         document.body.classList.remove('modal_is_open');

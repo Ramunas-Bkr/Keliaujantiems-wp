@@ -41,6 +41,14 @@
     }
 }
 
+@media (max-width: 650px) {
+    footer {
+        p {
+            font-size: 12px;
+        }
+    }
+}
+
 @media (max-width: 450px) {
     .main-page-news-block {
         .main-page-news-wrapper {

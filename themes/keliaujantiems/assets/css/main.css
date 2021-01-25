@@ -838,8 +838,8 @@ footer {
   width: 100%;
 }
 
-footer img {
-  width: 15%;
+footer a img {
+  width: 250px;
   height: auto;
   margin: 25px 0 10px;
 }
@@ -878,6 +878,12 @@ footer p a {
   }
   header .header-links-area .mobile-links-block {
     display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  footer p {
+    font-size: 12px;
   }
 }
 
